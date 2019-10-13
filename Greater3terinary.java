@@ -15,33 +15,7 @@ class Greater3terinary{
 		result=(a>b)?((a>c)?"A is >":"C is >"):((b>c)?"b is >":"C is >");
 
 
-		/*if(a>b)
-		{
-			if(a>c)
-			{
-				System.out.println("a is >");
-			}
-			else
-			{
-				if(c>b)
-				{
-					System.out.println("c is >");
-				}
-				else
-				{
-					System.out.println("B is >");
-				}
-			}
-		}else{
-			if(b>c)
-			{
-				System.out.println("b is >");
-			}
-			else
-			{
-				System.out.println("C is >");
-			}
-		}*/
+		// Using nested if statement
 
 		/*if (a > b){
 			if (a > c) {
