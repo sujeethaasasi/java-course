@@ -7,8 +7,9 @@ class Monopoly_1{
 	public static void main(String args[]){
 
 		String tableName[]	= {"START","CHENNAI","PARK","TRAIN","JAIL","ELECTRICAL COMPANY","Bangalore","Coffee shop","Community chest","Play ground","Free car parking","Hyderabad","Water board","Go to Start","Goa","Mysore","income tax","Madurai","Beach house","Coimbatore","Go to Jail","Luxury tax","Market","Community chest","Auto stand","Estate","Udupi","Hotel","Coorg","Hubli","Bus station","America","London","Hospital","England","Paris","Bowling court","Europe","Kodaikanal","Clubs"};
-		String tableType[]	= {"Add","Buy","PARK","TRAIN","JAIL","ELECTRICAL COMPANY","Bangalore","Coffee shop","Community chest","Play ground","Free car parking","Hyderabad","Water board","Go to Start","Goa","Mysore","income tax","Madurai","Beach house","Coimbatore","Go to Jail","Luxury tax","Market","Community chest","Auto stand","Estate","Udupi","Hotel","Coorg","Hubli","Bus station","America","London","Hospital","England","Paris","Bowling court","Europe","Kodaikanal","Clubs"};
-		String tableBuy[]	= {"2000","30000","PARK","TRAIN","JAIL","ELECTRICAL COMPANY","Bangalore","Coffee shop","Community chest","Play ground","Free car parking","Hyderabad","Water board","Go to Start","Goa","Mysore","income tax","Madurai","Beach house","Coimbatore","Go to Jail","Luxury tax","Market","Community chest","Auto stand","Estate","Udupi","Hotel","Coorg","Hubli","Bus station","America","London","Hospital","England","Paris","Bowling court","Europe","Kodaikanal","Clubs"};
+		String tableType[]	= {"Add","Place","Bank","Prop","Penalty","Place","Place","Place","Bank","Bank","Free","Place","Buy","Go to Start","place","Place","Bank","Place","Place","Place","Penalty","Bank","BAnk","Add","Bank","Place","Place","Place","Place","Place","Bank","Place","Place","Bank","Place","Place","Place","Place","Place","Bank"};
+		String tableBuy[]	= {"0","30000","0","50000","0","40000","45000","30000","0","0","0","30000","35000","0","60000","40000","0","45000","45000","50000","0","0","0","0","0","70000","40000","30000","30000","30000"
+		,0,30000,35000,0,40000,45000,40000,50000,35000,0
 		String tableRent[]	= {"2000","1500","PARK","TRAIN","JAIL","ELECTRICAL COMPANY","Bangalore","Coffee shop","Community chest","Play ground","Free car parking","Hyderabad","Water board","Go to Start","Goa","Mysore","income tax","Madurai","Beach house","Coimbatore","Go to Jail","Luxury tax","Market","Community chest","Auto stand","Estate","Udupi","Hotel","Coorg","Hubli","Bus station","America","London","Hospital","England","Paris","Bowling court","Europe","Kodaikanal","Clubs"};
 		String playerList1[]=new String[40];
 		String playerList2[]=new String[40];
@@ -89,11 +90,11 @@ class Monopoly_1{
 			System.out.println(p1dice);
 */
 			System.out.println("Dice Number is : " + roll);
-			System.out.println("Player Current Pointer : " + currentPointer[currentTurn]);
+			System.out.println("Player Curernt Pointer : " + currentPointer[currentTurn]);
 			
-			if (rollLocation > 39) //if condition to start from 0 if dice value crosses 40
+			if (rollLocation > tableName.length) //if condition to start from 0 if dice value crosses 40
 			{
-				currentPointer[currentTurn] = rollLocation-40;
+				currentPointer[currentTurn] = rollLocation-tableName.length;
 				System.out.println("Current Roll Location : " + currentPointer[currentTurn]);
 				System.out.println("Current Table Name    : " + tableName[currentPointer[currentTurn]]);
 			}
