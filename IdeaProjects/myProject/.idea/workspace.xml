@@ -11,6 +11,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -21,20 +22,35 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="create.test.in.the.same.root" value="true" />
+    <property name="full.screen.before.presentation.mode" value="false" />
     <property name="last_opened_file_path" value="$USER_HOME$/Desktop" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
-  <component name="RunManager" selected="Application.Aggregation1">
-    <configuration name="Aggregation1$MainProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="aggregation1.Aggregation1$MainProgram" />
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="abstractStudentDetails" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="abstractStudentDetails" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.DiceMatch">
+    <configuration name="DiceMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dice.DiceMain" />
       <module name="myProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="aggregation1.*" />
+          <option name="PATTERN" value="dice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -42,12 +58,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Aggregation1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="aggregation1.Aggregation1" />
+    <configuration name="DiceMatch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dice.DiceMatch" />
       <module name="myProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="aggregation1.*" />
+          <option name="PATTERN" value="dice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -55,12 +71,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="aggregation.MainProgram" />
+    <configuration name="InterfaceStudentData" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="abstractStudentDetails.InterfaceStudentData" />
       <module name="myProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="aggregation.*" />
+          <option name="PATTERN" value="abstractStudentDetails.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -68,12 +84,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Overriding" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="overriding.Overriding" />
+    <configuration name="MainDetails" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="abstractStudentDetails.MainDetails" />
       <module name="myProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="overriding.*" />
+          <option name="PATTERN" value="abstractStudentDetails.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -81,12 +97,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="oveRiding" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="overriding.oveRiding" />
+    <configuration name="StudentData" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="abstractStudentDetails.StudentData" />
       <module name="myProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="overriding.*" />
+          <option name="PATTERN" value="abstractStudentDetails.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -96,11 +112,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Aggregation1" />
-        <item itemvalue="Application.Overriding" />
-        <item itemvalue="Application.Aggregation1$MainProgram" />
-        <item itemvalue="Application.MainProgram" />
-        <item itemvalue="Application.oveRiding" />
+        <item itemvalue="Application.DiceMatch" />
+        <item itemvalue="Application.DiceMain" />
+        <item itemvalue="Application.InterfaceStudentData" />
+        <item itemvalue="Application.StudentData" />
+        <item itemvalue="Application.MainDetails" />
       </list>
     </recent_temporary>
   </component>
@@ -130,25 +146,97 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1493" height="666" key="GridCell.Tab.0.bottom" timestamp="1577006265757">
+    <state x="527" y="256" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1577256464747">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="666" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1577006265757" />
-    <state width="1493" height="666" key="GridCell.Tab.0.center" timestamp="1577006265756">
+    <state x="527" y="256" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.0.1536.824@0.0.1536.824" timestamp="1577256464747" />
+    <state x="574" y="123" key="#com.intellij.ide.util.MemberChooser" timestamp="1578112830560">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="666" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1577006265756" />
-    <state width="1493" height="666" key="GridCell.Tab.0.left" timestamp="1577006265755">
+    <state x="574" y="123" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1578112830560" />
+    <state x="473" y="97" key="#com.intellij.refactoring.encapsulateFields.EncalpsulateFieldsDialog" timestamp="1577331660019">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="666" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1577006265755" />
-    <state width="1493" height="666" key="GridCell.Tab.0.right" timestamp="1577006265756">
+    <state x="473" y="97" key="#com.intellij.refactoring.encapsulateFields.EncalpsulateFieldsDialog/0.0.1536.824@0.0.1536.824" timestamp="1577331660019" />
+    <state x="549" y="168" key="FileChooserDialogImpl" timestamp="1578111148938">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="666" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1577006265756" />
-    <state x="477" y="241" key="com.intellij.ide.util.TipDialog" timestamp="1576992092587">
+    <state x="549" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1578111148938" />
+    <state width="1493" height="123" key="GridCell.Tab.0.bottom" timestamp="1578113614497">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="477" y="241" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1576992092587" />
+    <state width="1536" height="90" key="GridCell.Tab.0.bottom.inPresentationMode" timestamp="1577255298969">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1536" height="90" key="GridCell.Tab.0.bottom.inPresentationMode/0.0.1536.824@0.0.1536.824" timestamp="1577255298969" />
+    <state width="1493" height="123" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1578113614497" />
+    <state width="1493" height="123" key="GridCell.Tab.0.center" timestamp="1578113614497">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1536" height="90" key="GridCell.Tab.0.center.inPresentationMode" timestamp="1577255298969">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1536" height="90" key="GridCell.Tab.0.center.inPresentationMode/0.0.1536.824@0.0.1536.824" timestamp="1577255298969" />
+    <state width="1493" height="123" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1578113614497" />
+    <state width="1493" height="123" key="GridCell.Tab.0.left" timestamp="1578113614497">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1536" height="90" key="GridCell.Tab.0.left.inPresentationMode" timestamp="1577255298969">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1536" height="90" key="GridCell.Tab.0.left.inPresentationMode/0.0.1536.824@0.0.1536.824" timestamp="1577255298969" />
+    <state width="1493" height="123" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1578113614497" />
+    <state width="1493" height="123" key="GridCell.Tab.0.right" timestamp="1578113614497">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1536" height="90" key="GridCell.Tab.0.right.inPresentationMode" timestamp="1577255298969">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1536" height="90" key="GridCell.Tab.0.right.inPresentationMode/0.0.1536.824@0.0.1536.824" timestamp="1577255298969" />
+    <state width="1493" height="123" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1578113614497" />
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1577414430695">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1577414430695" />
+    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1577414430695">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1577414430695" />
+    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1577414430695">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1577414430695" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1577414430695">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1577414430695" />
+    <state x="279" y="58" key="SettingsEditor" timestamp="1577256505429">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="279" y="58" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1577256505429" />
+    <state width="498" height="448" key="SwitcherDM" timestamp="1578111406609">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="498" height="448" key="SwitcherDM/0.0.1536.824@0.0.1536.824" timestamp="1578111406609" />
+    <state x="93" y="93" width="1350" height="638" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1578111913406">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="93" y="93" width="1350" height="638" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.0.1536.824@0.0.1536.824" timestamp="1578111913406" />
+    <state x="477" y="241" key="com.intellij.ide.util.TipDialog" timestamp="1577254737442">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="477" y="241" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1577254737442" />
+    <state x="540" y="116" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1577330108664">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="540" y="116" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.824@0.0.1536.824" timestamp="1577330108664" />
+    <state x="425" y="187" key="run.anything.popup" timestamp="1577293074871">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1577293074871" />
+    <state x="10" y="-2" width="1512" height="3212" key="search.everywhere.popup.inPresentationMode" timestamp="1577255296145">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="10" y="-2" width="1512" height="3212" key="search.everywhere.popup.inPresentationMode/0.0.1536.824@0.0.1536.824" timestamp="1577255296145" />
   </component>
 </project>
